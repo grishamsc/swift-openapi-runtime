@@ -33,6 +33,7 @@ let package = Package(
     products: [
         .library(
             name: "OpenAPIRuntime",
+            type: .dynamic,
             targets: ["OpenAPIRuntime"]
         )
     ],
